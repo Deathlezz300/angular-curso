@@ -1,0 +1,16 @@
+<h4>Listado</h4>
+<ul>
+    <li *ngFor="let character of characterList;
+        let i=index
+        let isEven=even
+        let isOdd=odd"
+        [ngClass]="{
+            'hola-clase':isEven,
+            'hola-2':isOdd
+            }">
+        <span>{{i+1}}</span>
+        <span>{{character.name}} - power: {{character.power}}</span>
+        <span>{{isEven}}</span>
+        <button (click)="deleteCharacter(character.id)" style="background-color: purple; color: white;">X</button>
+    </li>
+</ul>

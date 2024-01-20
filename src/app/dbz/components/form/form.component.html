@@ -1,0 +1,13 @@
+
+<h4>Agregar personaje</h4>
+
+<form (ngSubmit)="emitCharacter()" >
+    <input [(ngModel)]="character.name" name="name" type="text" placeholder="Nombre">
+
+    <input [(ngModel)]="character.power" type="number" placeholder="Poder" name="power">
+
+    <button >
+        Agregar
+    </button>
+
+</form>

@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+.hola-clase{
+  background-color: red;
+}
+
+.hola-2{
+  background-color: aqua;
+}

@@ -1,0 +1,16 @@
+
+<h1>Hola soy el contador</h1>
+
+<p>Numero {{counter}}</p>
+
+<span>Ingresa el valor:</span>
+
+<input type="number" value={{valor.valor}} name="valor" (change)="cambiarTexto($event)" inputmode="numeric" placeholder="Numero">
+
+<button (click)="increaseBy()">Aumentar</button>
+
+<button  (click)="aumentarCounter()">+1</button>
+
+<button (click)="decrementarContador()" >-1</button>
+
+<button (click)="resetCounter()" >Reset</button>
