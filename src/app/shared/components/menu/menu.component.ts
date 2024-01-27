@@ -38,8 +38,9 @@ export class MenuComponent implements OnInit {
         icon:PrimeIcons.COG,
         items:[
           {
-            label:'Otro elemento',
-            icon:PrimeIcons.COG
+            label:'Customs Pipes',
+            icon:PrimeIcons.COG,
+            routerLink:'custom'
           }
         ]
       }
